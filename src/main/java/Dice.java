@@ -36,6 +36,8 @@ public class Dice {
      * @return the number the die rolled
      */
     public int roll() {
+
         return (myRand.nextInt(numSides) + 1);
+
     }
 }
